@@ -4,11 +4,11 @@
 
 // function convertHTML(str) {
 //   // &colon;&rpar;
-//   const ampReg = /[\][&]/g;
-//   const leftBrac = /[\][<]/g;
-//   const rightBrac = /[\][>]/g;
-//   const singleQuot = /[\][']/g;
-//   const doubleQuot = /[\]["]/g;
+//   const ampReg = /&/g;
+//   const leftBrac = /</g;
+//   const rightBrac = />]/g;
+//   const singleQuot = /'/g;
+//   const doubleQuot = /"/g;
 //   const newStr = str
 //     .replace(ampReg, "&amp;")
 //     .replace(leftBrac, "&​lt;")
